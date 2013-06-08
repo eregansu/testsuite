@@ -38,6 +38,8 @@ if(!defined('TESTSUITE_RUN_TESTS'))
 
 require_once(dirname(__FILE__) . '/../platform.php');
 
+$EREGANSU_MODULES['harness'] = __FILE__;
+
 class TestHarness
 {
 	public function main()
